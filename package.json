@@ -4,7 +4,7 @@
   "description": "A WhatsApp Bot Created By Dan jersey",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --KYOTAKA-MD",
+    "start": "pm2 start index.js --deep-monitoring --attach --name KYOTAKA-MD",
     "stop": "pm2 stop KYOTAKA-MD",
     "restart": "pm2 restart KYOTAKA-MD"
   },
